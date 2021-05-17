@@ -1,0 +1,92 @@
+@import "variables";
+
+html, body, input, textarea, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-highlight {
+    background: $color-red;
+    border: 0;
+    border-radius: 0.625rem;
+    color: #fff;
+    padding: .5rem 2rem;
+    transition: filter 0.2s;
+    
+    &.yellow {
+        background: $color-yellow;
+    }
+
+    &.uppercase {
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        filter: brightness(0.9);
+    }
+}
+
+.form-control {
+    height: 3.5rem;
+    background: $color-gray-lighten;
+    
+    &::placeholder {
+        color: #c4c4c4;
+    }
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+footer {
+    padding: 3.5rem 0;
+    background: $color-text;
+    color: #fff;
+
+    header {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $color-gray-light;
+
+        ul {
+            width: 100%;
+            margin-left: 8rem;
+            margin-right: 10rem;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                font-size: 1rem;
+                font-weight: 700;
+                width: 260px;
+                text-transform: uppercase;
+                color: $color-gray-light;
+            }
+        }
+    }
+    
+    .footer-navigation {
+        display: flex;
+        margin-left: 16.25rem;
+        ul {
+            width: 260px;
+        }
+        
+        ul li {
+            width: 100%;
+            max-width: 260px;
+
+            a {
+                color: $color-gray-lighten;
+                
+                &:hover {
+                    color: $color-gray;
+                    filter: brightness(0.9);
+                }
+            }
+        }
+    }
+}

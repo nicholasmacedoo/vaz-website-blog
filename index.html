@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaz Desenvolvimento | Boulevard Premium - Cacoal (RO)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/global.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    
+    <!-- scripts -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="container header-container">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="nav-brand">
+                <img src="./assets/images/logo.svg" alt="Vaz - Desenvolvimento imobiliário">
+            </div>
+            <div class="search-enterprises">
+                <i data-feather="search"></i>
+                <input type="text" placeholder="Buscar seu imóvel">
+            </div>
+            <nav class="nav">
+                <a href="#" class="nav-link">
+                    <img src="./assets/images/icon/domain.svg" alt="Imóveis">
+                    Imóveis
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="./assets/images/icon/phone.svg" alt="Contato">
+                    Contato
+                </a>
+                <a href="#" class="nav-link">
+                    <img src="./assets/images/icon/menu.svg" alt="Menu">
+                    Menu
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- highlight view -->
+        <div class="screen-highlight-container">
+            <div class="container">
+                <div class="row align-items-center description-highlight">
+                    <div class="col-md-6">
+                        <h1>Lançamento</h1>
+                        <img src="./assets/images/logo-boulevar-flat.png" alt="Boulevard Premium - Cacoal">
+                        <p>A partir de <strong>R$ 1.389.000,00</strong></p>
+                        <button class="button-highlight uppercase">
+                            Faça uma simulação agora!
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="card-form">
+                            <div class="header">
+                                <h3>Compre agora <br> <span class="text-red">100% ONLINE</span></h3>
+                                <span>Faça a simulação de financiamento</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Nome">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                            <input type="text" class="form-control" placeholder="Whatsapp">
+                            <button type="submit" class="btn btn-danger btn-block">Aproveitar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <span class="scroll-down">
+                <i data-feather="chevron-down"></i>
+            </span>
+        </div>
+        <!-- about -->
+        <div class="wrapper-about-house">
+            <div class="container about-container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p>Nos inspiramos na pluralidade das vivências para projetar um empreendimento com espaços que privilegiam as experiências, o coletivo e o senso de comunidade. Buscamos referências na moda, na gastronomia, nas artes e nas histórias de família para construir um lugar onde tradição e modernidade coexistem em harmonia.
+                            <strong>Boas vindas ao <span class="hightlight-text">Auguri.</span></strong></p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/images/logotipo-boulevard-premium.png" alt="Boulevard Premium - Cocoal">
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/images/shapes.png" alt="shapes" id="shapes-background">
+            <!-- welcome your house -->
+            <div class="welcome-house-container">
+                <div class="container">
+                    <h2>Boas vindas a <strong>sua nova casa.</strong></h2>
+                    <div class="select-views">
+                        <button class="button-highlight yellow">
+                            Decorado
+                        </button>
+                        <button class="button-highlight yellow">
+                            Ilustrações
+                        </button>
+                        <button class="button-highlight yellow">
+                            Tour virtual
+                        </button>
+                    </div>
+                    <div class="list-gallery">
+                        <div class="previous-page">
+                            <button>
+                                <i data-feather="chevron-left"></i>
+                            </button>
+                        </div>
+                        <div class="content">
+                            <div class="group-image">
+                                <img src="./assets/images/slide1.png" alt="Lavabo">
+                                <div class="description">
+                                    <span>Lavabo</span>
+                                </div>
+                            </div>
+                            <div class="group-image">
+                                <img src="./assets/images/slide2.png" alt="Piscina">
+                                <div class="description">
+                                    <span>Piscina</span>
+                                </div>
+                            </div>
+                            <div class="group-image">
+                                <img src="./assets/images/slide3.png" alt="Lounge">
+                                <div class="description">
+                                    <span>Lounge</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="next-page">
+                            <button>
+                                <i data-feather="chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- plants -->
+        <div class="container plants-container">
+            <h3>Plantas</h3>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-2suites-tab" data-bs-toggle="pill" data-bs-target="#pills-2suites" type="button" role="tab" aria-controls="pills-2suites" aria-selected="true">
+                    2 suítes e 2 dorms | 152m²
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-3suites-tab" data-bs-toggle="pill" data-bs-target="#pills-3suites" type="button" role="tab" aria-controls="pills-3suites" aria-selected="false">
+                    3 suítes | 152m²
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-3suites-living-tab" data-bs-toggle="pill" data-bs-target="#pills-3suites-living" type="button" role="tab" aria-controls="pills-3suites-living" aria-selected="false">
+                    3 suítes living ampliado | 179m²
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-2suites" role="tabpanel" aria-labelledby="pills-2suites-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/images/plant.png" alt="Planta - 2 suítes e 2 dorms | 152m²">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-infra.svg" alt="Aquecedor a gás">
+                                        <span>Infraestrutura para 
+                                            aquecedor a gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-persiana.svg" alt="Aquecedor a gás">
+                                        <span>Caixilho com persiana 
+                                            integrada sem automação</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-usb.svg" alt="Aquecedor a gás">
+                                        <span>USB na suíte e dormitórios</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-meter.svg" alt="Aquecedor a gás">
+                                        <span>Medição individualizada
+                                            de água e gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-sound.svg" alt="Aquecedor a gás">
+                                        <span>Contrapiso acústico, sistema 
+                                            flutuante, exceto no 1º andar</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-ar.svg" alt="Aquecedor a gás">
+                                        <span>Previsão de carga para A/C e
+                                            infra com dreno e rede frigorígena
+                                            na sala de estar, terraço social e
+                                            dormitórios.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-3suites" role="tabpanel" aria-labelledby="pills-3suites-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/images/plant.png" alt="Planta - 2 suítes e 2 dorms | 152m²">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-infra.svg" alt="Aquecedor a gás">
+                                        <span>Infraestrutura para 
+                                            aquecedor a gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-persiana.svg" alt="Aquecedor a gás">
+                                        <span>Caixilho com persiana 
+                                            integrada sem automação</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-usb.svg" alt="Aquecedor a gás">
+                                        <span>USB na suíte e dormitórios</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-meter.svg" alt="Aquecedor a gás">
+                                        <span>Medição individualizada
+                                            de água e gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-sound.svg" alt="Aquecedor a gás">
+                                        <span>Contrapiso acústico, sistema 
+                                            flutuante, exceto no 1º andar</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-ar.svg" alt="Aquecedor a gás">
+                                        <span>Previsão de carga para A/C e
+                                            infra com dreno e rede frigorígena
+                                            na sala de estar, terraço social e
+                                            dormitórios.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-3suites-living" role="tabpanel" aria-labelledby="pills-3suites-living-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./assets/images/plant.png" alt="Planta - 2 suítes e 2 dorms | 152m²">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-infra.svg" alt="Aquecedor a gás">
+                                        <span>Infraestrutura para 
+                                            aquecedor a gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-persiana.svg" alt="Aquecedor a gás">
+                                        <span>Caixilho com persiana 
+                                            integrada sem automação</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-usb.svg" alt="Aquecedor a gás">
+                                        <span>USB na suíte e dormitórios</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-meter.svg" alt="Aquecedor a gás">
+                                        <span>Medição individualizada
+                                            de água e gás</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-sound.svg" alt="Aquecedor a gás">
+                                        <span>Contrapiso acústico, sistema 
+                                            flutuante, exceto no 1º andar</span>
+                                    </div>
+                                    <div class="features-plant">
+                                        <img src="./assets/images/icon/icon-ar.svg" alt="Aquecedor a gás">
+                                        <span>Previsão de carga para A/C e
+                                            infra com dreno e rede frigorígena
+                                            na sala de estar, terraço social e
+                                            dormitórios.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+        <!-- Experience -->
+        <div class="experience-container">
+            <div class="container">
+                <header>
+                    <h2>Experiências</h2>
+                    <p>
+                        Cada m² do Auguri foi projetado para que você e sua família aproveitem os melhores momentos com todo o 
+                        conforto e modernidade, em espaços acessíveis, integrados e distribuídos em experiências.
+                    </p>
+                </header>
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link arrow-down active" id="pills-welfare-tab" data-bs-toggle="pill" data-bs-target="#pills-welfare" type="button" role="tab" aria-controls="pills-welfare" aria-selected="true">
+                    Bem Estar
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link arrow-down" id="pills-celebration-tab" data-bs-toggle="pill" data-bs-target="#pills-celebration" type="button" role="tab" aria-controls="pills-celebration" aria-selected="false">
+                    Celebração
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link arrow-down" id="pills-fun-tab" data-bs-toggle="pill" data-bs-target="#pills-fun" type="button" role="tab" aria-controls="pills-fun" aria-selected="false">
+                    Diversão
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link arrow-down" id="pills-convenience-tab" data-bs-toggle="pill" data-bs-target="#pills-convenience" type="button" role="tab" aria-controls="pills-convenience" aria-selected="false">
+                      Conveniência
+                    </button>
+                  </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-welfare" role="tabpanel" aria-labelledby="pills-welfare-tab">
+                    <div class="content-experience">
+                        <strong>Experiências de bem estar</strong>
+                        <p>
+                            No Boulevard Premium, você pratica seu melhor momento em espaços pensados para um estilo de vida saudável em todas as esferas: corpo, alma e mente.
+                        </p>
+
+                        <div class="grid-experiencies">
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/003-dumbbell.svg" alt="Academia">
+                                <strong>Academia</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/002-massage.svg" alt="Massagem">
+                                <strong>Massagem</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/004-pool.svg" alt="Piscina">
+                                <strong>Piscina</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/005-relax.svg" alt="Estetica">
+                                <strong>Estetica</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/001-zen.svg" alt="Espaço Zen">
+                                <strong>Espaço Zen</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/006-armchair.svg" alt="Lounge">
+                                <strong>Lounge</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-celebration" role="tabpanel" aria-labelledby="pills-celebration-tab">
+                    <div class="content-experience">
+                        <strong>Experiências de bem estar</strong>
+                        <p>
+                            No Boulevard Premium, você pratica seu melhor momento em espaços pensados para um estilo de vida saudável em todas as esferas: corpo, alma e mente.
+                        </p>
+
+                        <div class="grid-experiencies">
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/003-dumbbell.svg" alt="Academia">
+                                <strong>Academia</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/002-massage.svg" alt="Massagem">
+                                <strong>Massagem</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/004-pool.svg" alt="Piscina">
+                                <strong>Piscina</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/005-relax.svg" alt="Estetica">
+                                <strong>Estetica</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/001-zen.svg" alt="Espaço Zen">
+                                <strong>Espaço Zen</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/006-armchair.svg" alt="Lounge">
+                                <strong>Lounge</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-fun" role="tabpanel" aria-labelledby="pills-fun-tab">
+                    <div class="content-experience">
+                        <strong>Experiências de bem estar</strong>
+                        <p>
+                            No Boulevard Premium, você pratica seu melhor momento em espaços pensados para um estilo de vida saudável em todas as esferas: corpo, alma e mente.
+                        </p>
+
+                        <div class="grid-experiencies">
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/003-dumbbell.svg" alt="Academia">
+                                <strong>Academia</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/002-massage.svg" alt="Massagem">
+                                <strong>Massagem</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/004-pool.svg" alt="Piscina">
+                                <strong>Piscina</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/005-relax.svg" alt="Estetica">
+                                <strong>Estetica</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/001-zen.svg" alt="Espaço Zen">
+                                <strong>Espaço Zen</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/006-armchair.svg" alt="Lounge">
+                                <strong>Lounge</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-convenience" role="tabpanel" aria-labelledby="pills-convenience-tab">
+                    <div class="content-experience">
+                        <strong>Experiências de bem estar</strong>
+                        <p>
+                            No Boulevard Premium, você pratica seu melhor momento em espaços pensados para um estilo de vida saudável em todas as esferas: corpo, alma e mente.
+                        </p>
+
+                        <div class="grid-experiencies">
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/003-dumbbell.svg" alt="Academia">
+                                <strong>Academia</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/002-massage.svg" alt="Massagem">
+                                <strong>Massagem</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/004-pool.svg" alt="Piscina">
+                                <strong>Piscina</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/005-relax.svg" alt="Estetica">
+                                <strong>Estetica</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/001-zen.svg" alt="Espaço Zen">
+                                <strong>Espaço Zen</strong>
+                            </div>
+                            <div class="item-experience">
+                                <img src="./assets/images/icon/006-armchair.svg" alt="Lounge">
+                                <strong>Lounge</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Map -->
+        <div class="map-container">
+            <div class="container">
+                <header>
+                    <div class="top">
+                        <h2>Perto de quem faz <br> parte da sua história.</h2>
+                        <div class="map-pin">
+                            <div class="header">
+                                <i data-feather="map-pin"></i>
+                                <div class="text">
+                                    <strong>Rua Joe Doe, 639</strong>
+                                    <span>Cacoal (RO)</span>
+                                </div>
+                            </div>
+                            <button class="button-highlight yellow">Agendar visita</button>
+                        </div>
+                    </div>
+                    <p>O Boulevard Premium está localizado no coração da Mooca, em um endereço que reflete a transformação do bairro 
+                        sem que as raízes sejam esquecidas.</p>
+                </header>
+                <div class="map">
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992693.994075407!2d-60.81077277869666!3d-12.714697821989366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34d0bd00214b93b9!2sCondom%C3%ADnio%20Boulevard%20Premium%20Residence%20%26%20Resort!5e0!3m2!1spt-BR!2sbr!4v1620849460280!5m2!1spt-BR!2sbr" 
+                    height="450" style="border:0;"
+                     allowfullscreen="" loading="lazy"></iframe>
+                     <button class="button-highlight yellow">
+                        <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="m509.539 228.942c0-61.321-23.768-118.86-66.925-162.018-43.157-43.156-100.696-66.924-162.018-66.924-61.152 0-118.644 23.815-161.885 67.056-43.233 43.233-67.046 100.717-67.055 161.856l-.07 35.929c-.038 19.332-15.206 34.886-34.53 35.409l-14.594.395v14.6c0 30.149 19.967 65.482 52.108 92.211 11.473 9.542 26.705 19.837 46.178 28.627-.189 2.084-.3 4.19-.3 6.322 0 38.375 31.221 69.596 69.596 69.596 33.054 0 60.78-23.17 67.839-54.117h39.428c7.057 30.946 34.783 54.116 67.837 54.116 38.375 0 69.595-31.221 69.595-69.596 0-8.69-1.615-17.007-4.538-24.684 11.436-7.887 22.245-16.86 32.278-26.893 43.241-43.241 67.056-100.732 67.056-161.885zm-124.796 213.462c0 21.833-17.762 39.596-39.595 39.596-16.962 0-31.462-10.724-37.09-25.746 26.566-3.156 52.095-10.875 75.656-22.784.666 2.874 1.029 5.862 1.029 8.934zm-104.146-14.521h-42.495c-6.699-31.426-34.665-55.073-68.06-55.073-25.579 0-47.964 13.88-60.058 34.494-15.15-7.171-27.1-15.32-36.233-22.914-17.066-14.192-34.261-35.915-39.603-56.642 10.853-3.097 20.766-8.979 28.833-17.252 11.963-12.268 18.57-28.46 18.604-45.596l.07-35.929v-.029c.001-109.697 89.245-198.942 198.941-198.942 53.309 0 103.314 20.647 140.805 58.138 37.49 37.491 58.138 87.497 58.138 140.805-.001 109.696-89.246 198.94-198.942 198.94zm-110.555 54.117c-21.833 0-39.596-17.763-39.596-39.596s17.763-39.595 39.596-39.595 39.595 17.762 39.595 39.595-17.762 39.596-39.595 39.596z"/>
+                                <path d="m306.658 300.244c-30.304 0-57.784-19.072-68.382-47.46l-28.105 10.492c14.954 40.056 53.729 66.968 96.487 66.968s81.533-26.912 96.488-66.968l-28.105-10.492c-10.599 28.387-38.079 47.46-68.383 47.46z"/>
+                                <path d="m216.059 156.857h30v50.143h-30z"/>
+                                <path d="m367.258 156.857h30v50.143h-30z"/>
+                            </g>
+                            </svg>
+                         Ir de Waze
+                     </button>
+                </div>
+
+                <div class="description">
+                    <p> 
+                        Estado/Município – Cacoal (RO)  Área total: 140.147,00 m2  Número de quadras: 16  Número de lotes: 186 <br>
+                        Área de lazer completa <br>
+                        Equip. Comunitários e vias: 31.003,92m2  Áreas verdes (área total): 9.482,68m2  Áreas públicas (área total): 60.016,15m2  <br>
+                        Metragem dos lotes a partir de: 360m2  Perfil do loteamento: Alto Padrão <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- financing -->
+        <div class="financing-container">
+            <div class="container">
+                <div class="row">
+                    <div class="values-financing col-6">
+                        <strong>Valores e financiamento</strong>
+                        <div class="row">
+                            <div class="col-6">
+                                <span>Parcela de entrada</span>
+                                <strong id="input-installment">R$ 419.744,00</strong>
+                                <input type="range" min="0" max="708105" value="30000" step="1" class="form-range" data-target="#input-installment">
+                            </div>
+                            <div class="col-6">
+                                <span>Saldo do FGTS</span>
+                                <strong id="balance-fgts">R$ 419.744,00</strong>
+                                <input type="range" min="0" max="424863" value="100000" step="1" class="form-range" data-target="#balance-fgts">
+                            </div>
+                        </div>
+                        <div class="financing-term">
+                            <span>Prazo de financiamento:</span>
+                            <div class="groups">
+                                <input type="radio" name="financing-term" class="btn-check" id="thirty-years" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="thirty-years">30 anos</label>
+    
+                                <input type="radio" name="financing-term" class="btn-check" id="twenty-years" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="twenty-years">20 anos</label>
+    
+                                <input type="radio" name="financing-term" class="btn-check" id="ten-years" autocomplete="off">
+                                <label class="btn btn-outline-danger" for="ten-years">10 anos</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="financing-indexes">
+                                    <span>Indexadores de financiamento:</span>
+                                    <div class="groups">
+                                        <input type="radio" name="financing-term" class="btn-check" id="thirty-years" autocomplete="off">
+                                        <label class="btn btn-outline-danger" for="thirty-years">TR</label>
+            
+                                        <input type="radio" name="financing-term" class="btn-check" id="twenty-years" autocomplete="off">
+                                        <label class="btn btn-outline-danger" for="twenty-years">IPCA</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="financing-indexes">
+                                    <span>Tabela de amortização utilizada:</span>
+                                    <div class="groups">
+                                        <input type="radio" name="financing-term" class="btn-check" id="thirty-years" autocomplete="off">
+                                        <label class="btn btn-outline-danger" for="thirty-years">SAC</label>
+            
+                                        <input type="radio" name="financing-term" class="btn-check" id="twenty-years" autocomplete="off">
+                                        <label class="btn btn-outline-danger" for="twenty-years">PRICE</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-financing col-6">
+                        <strong>Impostos e taxas cartoriais</strong>
+                        <p>Abaixo disponibilizamos uma estimativa de despesas com emissão de contratos de financiamento, 
+                            recolhimento de ITBI e registro junto ao Cartório de Registro de Imóveis.</p>
+                            <div class="charts">
+                                <div class="first-installment">
+                                    <span>Primeira parcela</span>
+                                    <strong>R$ 7.893,26</strong>
+                                    <span class="bar-chart" style="height: 150px;"></span>
+                                </div>
+                                <div class="first-installment">
+                                    <span>Última parcela</span>
+                                    <strong>R$ 2.565,51</strong>
+                                    <span class="bar-chart"></span>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-outline-danger">VEJA SUGESTÃO DE FLUXO DE PARCELAS</button>
+                            </div>
+                            <p class="info">
+                                *Valor simulado com a taxa de juros base de 7,5%. O resultado apresentado é uma simulação com valor aproximado, sendo que o mesmo pode variar de acordo com o perfil do comprador, Banco de sua escolha e as condições aplicáveis no momento da contratação. Na presente simulação não foram considerados os valores de seguros habitacionais e tarifa de administração exigidos pelos Bancos, quando da contratação de financiamento.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <header>
+                <img src="./assets/images/logo.svg" alt="Vaz Desenvolvimento Imobiliário">
+                <ul>
+                    <li>Site</li>
+                    <li>Contato</li>
+                    <li>Utilidades</li>
+                    <li>Políticas</li>
+                </ul>
+            </header>
+            <div class="footer-navigation">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Imóveis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Fale conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Trabalhe conosco</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Imóveis Entregues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Guia de Compra de imóveis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Campanhas e promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Glossário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Tipos de financiamento</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Politica de Privacidade de Dados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Regulamentos de Promoções</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/scripts.js"></script>
+</body>
+</html>
